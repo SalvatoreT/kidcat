@@ -27,5 +27,5 @@ tasks.withType<KotlinCompile> {
 }
 
 application {
-  mainClass.set("Main")
+  mainClass.set("dev.sal.kidcat.Main")
 }
