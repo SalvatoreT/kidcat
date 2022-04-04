@@ -41,7 +41,7 @@ class Kidcat : CliktCommand() {
     // * TaskRecord{c7f29c4 #15 A=com.foo.bar U=0 StackId=4 sz=1}
     .split("\n")
     .first { line -> line.contains("TaskRecord") }
-    .split("A=").getOrElse(1) { "" }
-    .split(" U=0").first()
+    .substringAfter("A=")
+    .substringBefore(" U=0")
     .ifBlank { null }
 }
