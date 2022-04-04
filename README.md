@@ -13,5 +13,5 @@ You can either run the `Main.main` method directly in IntelliJ or run the follow
 or with arguments like so
 
 ```shell
-./gradlew run --args="--current"
+./gradlew run --args="--help"
 ```
