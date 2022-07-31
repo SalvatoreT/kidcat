@@ -1,0 +1,254 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+
+  Stack #5: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+    Task id #9
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{c29e113 #9 A=dev.sal.example U=0 StackId=5 sz=1}
+      userId=0 effectiveUid=u0a89 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+      affinity=dev.sal.example
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=dev.sal.example/.MainActivity}
+      realActivity=dev.sal.example/.MainActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{e846c88 u0 dev.sal.example/.MainActivity t9}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{81acf50 22775:dev.sal.example/u0a89}
+      stackId=5
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true lastActiveTime=31366237 (inactive for 60s)
+      * Hist #0: ActivityRecord{e846c88 u0 dev.sal.example/.MainActivity t9}
+          packageName=dev.sal.example processName=dev.sal.example
+          launchedFromUid=2000 launchedFromPackage=null userId=0
+          app=ProcessRecord{81acf50 22775:dev.sal.example/u0a89}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=dev.sal.example/.MainActivity }
+          frontOfTask=true task=TaskRecord{c29e113 #9 A=dev.sal.example U=0 StackId=5 sz=1}
+          taskAffinity=dev.sal.example
+          realActivity=dev.sal.example/.MainActivity
+          baseDir=/data/app/dev.sal.example-a_Qa6HBLmbla1_042_71tw==/base.apk
+          dataDir=/data/user/0/dev.sal.example
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f10001c icon=0x7f0d0001 theme=0x7f1101d4
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+           mOverrideConfig={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=standard} s.6}
+          CurrentConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=standard} s.6}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff6200ee
+           backgroundColor=ffffffff
+           statusBarColor=ff3700b3
+           navigationBarColor=ff000000
+          launchFailed=false launchCount=1 lastLaunchTime=-1m0s552ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=true lastVisibleTime=-58s158ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{c29e113 #9 A=dev.sal.example U=0 StackId=5 sz=1}
+        Run #0: ActivityRecord{e846c88 u0 dev.sal.example/.MainActivity t9}
+
+    mResumedActivity: ActivityRecord{e846c88 u0 dev.sal.example/.MainActivity t9}
+
+  Stack #4: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #8
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{674d549 #8 A=com.example.picasso U=0 StackId=4 sz=1}
+      userId=0 effectiveUid=u0a88 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+      affinity=com.example.picasso
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.picasso/.SampleGridViewActivity}
+      realActivity=com.example.picasso/.SampleGridViewActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{47347b1 u0 com.example.picasso/.SampleGridViewActivity t8}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{8313e4e 22619:com.example.picasso/u0a88}
+      stackId=4
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true lastActiveTime=31365691 (inactive for 61s)
+      * Hist #0: ActivityRecord{47347b1 u0 com.example.picasso/.SampleGridViewActivity t8}
+          packageName=com.example.picasso processName=com.example.picasso
+          launchedFromUid=2000 launchedFromPackage=null userId=0
+          app=ProcessRecord{8313e4e 22619:com.example.picasso/u0a88}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.picasso/.SampleGridViewActivity }
+          frontOfTask=true task=TaskRecord{674d549 #8 A=com.example.picasso U=0 StackId=4 sz=1}
+          taskAffinity=com.example.picasso
+          realActivity=com.example.picasso/.SampleGridViewActivity
+          baseDir=/data/app/com.example.picasso-CgZ-Ugp8ZYdeel-36zF8Zw==/base.apk
+          dataDir=/data/user/0/com.example.picasso
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f0a0001 icon=0x7f060008 theme=0x7f0b0006
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+           mOverrideConfig={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=standard} s.6}
+          CurrentConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=standard} s.6}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff222222
+           backgroundColor=ff000000
+           statusBarColor=ff000000
+           navigationBarColor=ff000000
+          launchFailed=false launchCount=0 lastLaunchTime=-1m20s468ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=2444]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-1m16s235ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{674d549 #8 A=com.example.picasso U=0 StackId=4 sz=1}
+        Run #0: ActivityRecord{47347b1 u0 com.example.picasso/.SampleGridViewActivity t8}
+
+    mLastPausedActivity: ActivityRecord{47347b1 u0 com.example.picasso/.SampleGridViewActivity t8}
+
+  Stack #0: type=home mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #5
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{629eac0 #5 I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 StackId=0 sz=1}
+      userId=0 effectiveUid=u0a6 mCallingUid=u0a6 mUserSetupComplete=true mCallingPackage=com.google.android.apps.nexuslauncher
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity}
+      realActivity=com.google.android.apps.nexuslauncher/.NexusLauncherActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=2
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{6acb0db u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{a4f80d0 2658:com.google.android.apps.nexuslauncher/u0a6}
+      stackId=0
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE mSupportsPictureInPicture=false isResizeable=true lastActiveTime=31344965 (inactive for 81s)
+      * Hist #0: ActivityRecord{6acb0db u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}
+          packageName=com.google.android.apps.nexuslauncher processName=com.google.android.apps.nexuslauncher
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{a4f80d0 2658:com.google.android.apps.nexuslauncher/u0a6}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+          frontOfTask=true task=TaskRecord{629eac0 #5 I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 StackId=0 sz=1}
+          taskAffinity=null
+          realActivity=com.google.android.apps.nexuslauncher/.NexusLauncherActivity
+          baseDir=/system/priv-app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk
+          dataDir=/data/user/0/com.google.android.apps.nexuslauncher
+          stateNotNeeded=true componentSpecified=false mActivityType=home
+          compat={440dpi} labelRes=0x7f110030 icon=0x7f080039 theme=0x7f120002
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+           mOverrideConfig={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=home} s.6}
+          CurrentConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=home} s.6}
+          OverrideConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mActivityType=home}}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=fff5f5f5
+           backgroundColor=fffafafa
+           statusBarColor=0
+           navigationBarColor=0
+          launchFailed=false launchCount=0 lastLaunchTime=-8h43m21s655ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=3620]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=home
+          waitingVisible=false nowVisible=false lastVisibleTime=-21m45s489ms
+          connections=[]
+          resizeMode=RESIZE_MODE_RESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{629eac0 #5 I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 StackId=0 sz=1}
+        Run #0: ActivityRecord{6acb0db u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}
+
+    mLastPausedActivity: ActivityRecord{6acb0db u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}
+
+  Stack #3: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #7
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{45b55f2 #7 A=org.joinmastodon.android U=0 StackId=3 sz=1}
+      userId=0 effectiveUid=u0a87 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+      affinity=org.joinmastodon.android
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10100000 cmp=org.joinmastodon.android/.MainActivity}
+      realActivity=org.joinmastodon.android/.MainActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{4b4ebcf u0 org.joinmastodon.android/.MainActivity t7}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{a3f8443 12634:org.joinmastodon.android/u0a87}
+      stackId=3
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true lastActiveTime=30120767 (inactive for 1306s)
+      * Hist #0: ActivityRecord{4b4ebcf u0 org.joinmastodon.android/.MainActivity t7}
+          packageName=org.joinmastodon.android processName=org.joinmastodon.android
+          launchedFromUid=2000 launchedFromPackage=null userId=0
+          app=ProcessRecord{a3f8443 12634:org.joinmastodon.android/u0a87}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10100000 cmp=org.joinmastodon.android/.MainActivity }
+          frontOfTask=true task=TaskRecord{45b55f2 #7 A=org.joinmastodon.android U=0 StackId=3 sz=1}
+          taskAffinity=org.joinmastodon.android
+          realActivity=org.joinmastodon.android/.MainActivity
+          baseDir=/data/app/org.joinmastodon.android-IqRZTrCutF0vV7hPVJb17A==/base.apk
+          dataDir=/data/user/0/org.joinmastodon.android
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f0d0009 icon=0x7f0b0003 theme=0x7f0e0007
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+           mOverrideConfig={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=standard} s.6}
+          CurrentConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h713dp 440dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 0 - 1080, 2028) mWindowingMode=fullscreen mActivityType=standard} s.6}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff282c37
+           backgroundColor=fff2f4f7
+           statusBarColor=fff9fafb
+           navigationBarColor=fff9fafb
+          launchFailed=false launchCount=0 lastLaunchTime=-5h44m40s514ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=1676]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_REMOVED
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-5h44m39s994ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{45b55f2 #7 A=org.joinmastodon.android U=0 StackId=3 sz=1}
+        Run #0: ActivityRecord{4b4ebcf u0 org.joinmastodon.android/.MainActivity t7}
+
+    mLastPausedActivity: ActivityRecord{4b4ebcf u0 org.joinmastodon.android/.MainActivity t7}
+
+  ResumedActivity: ActivityRecord{e846c88 u0 dev.sal.example/.MainActivity t9}
+  mFocusedStack=ActivityStack{c477b6f stackId=5 type=standard mode=fullscreen visible=true translucent=false, 1 tasks} mLastFocusedStack=ActivityStack{c477b6f stackId=5 type=standard mode=fullscreen visible=true translucent=false, 1 tasks}
+  mCurTaskIdForUser={0=9}
+  mUserStackInFront={}
+  displayId=0 stacks=4
+   mHomeStack=ActivityStack{fc4df3e stackId=0 type=home mode=fullscreen visible=false translucent=true, 1 tasks}
+  isHomeRecentsComponent=true  KeyguardController:
+    mKeyguardShowing=false
+    mAodShowing=false
+    mKeyguardGoingAway=false
+    mOccluded=false
+    mDismissingKeyguardActivity=null
+    mDismissalRequested=false
+    mVisibilityTransactionDepth=0
+  LockTaskController
+    mLockTaskModeState=NONE
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+      u0:[]

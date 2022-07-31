@@ -17,7 +17,7 @@ class Kidcat : CliktCommand() {
         val runningPackage = dadb.current() ?: throw CliktError("No running Activities found.")
         while (true) {
           val line: String = it.read().toString()
-          if (line.contains(runningPackage)) {
+          if (line.contains(runningPackage.name)) {
             echo(
               message = line,
               trailingNewline = false,
@@ -25,23 +25,28 @@ class Kidcat : CliktCommand() {
           }
         }
       } else {
-        while (true) echo(
-          message = it.read(),
-          trailingNewline = false,
-        )
+        while (true) {
+          val line = it.read().toString()
+
+          if (!LOG_LINE.matches(line)) continue
+
+          echo(
+            message = line,
+            trailingNewline = false,
+          )
+        }
       }
     }
+  }
+
+  companion object {
+    val BUG_LINE = Regex(".*nativeGetEnabledTags.*")
+    val LOG_LINE = Regex("^([A-Z])/(.+?)\\( *(\\d+)\\): (.*?)\$")
   }
 
   /**
    * @return currently running Activity package name
    */
-  private fun Dadb.current(): String? = this.shell("dumpsys activity activities").output
-    // Looking for the first line like the following in the dump
-    // * TaskRecord{c7f29c4 #15 A=com.foo.bar U=0 StackId=4 sz=1}
-    .split("\n")
-    .first { line -> line.contains("TaskRecord") }
-    .substringAfter("A=")
-    .substringBefore(" U=0")
-    .ifBlank { null }
+  private fun Dadb.current(): Package? = this.shell("dumpsys activity activities").output
+    .currentPackage()
 }
